@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+{% block content %}
+<section id="section-about" class="bg-grey">
+    <div class="container">
+        <div id="home-row" class="row justify-content-center align-items-center">
+            <div id="home-column" class="col-md-6">
+                <div id="home-box" class="col-md-12">
+                    <br>
+                    <div class="form-group">
+                        <img src="{{ url_for('static', filename = 'images/Imagem3.png')}}" alt="about image"
+                            height="245" width="245" class="img-responsive">
+                    </div>
+                    <h6 class="text-center text-dark">
+                        <p>Sobre:</p>
+                        <br>
+                        <p>Um Portal para desbravar Santana de Parnaíba. Aqui, você encontra informações completas sobre
+                            a cidade, desde sua rica história e cultura até dados estatísticos atualizados. Acesse o
+                            dashboard completo com dados do Portal da Transparência da Prefeitura Municipal contendo
+                            informações detalhadas sobre despesas, receitas e folha de pagamento.</p>
+                        <br>
+                        <p>Explore os Dados Populacionais e conheça o perfil da população de Santana de Parnaíba com
+                            base nos dados mais recentes do IBGE.</p>
+                        <br>
+                        <p>Fique por dentro das últimas vagas de concursos públicos em Santana de Parnaíba e região.
+                            Utilize nossa ferramenta de busca avançada no portal PCI Concursos para encontrar
+                            oportunidades que correspondem ao seu perfil.</p>
+
+                    </h6>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{% endblock %}
