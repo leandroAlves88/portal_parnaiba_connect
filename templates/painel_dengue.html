@@ -3,15 +3,27 @@
 <section id="section-about" class="bg-grey">
     <div class="container">
         <div id="home-row" class="row justify-content-center align-items-center">
+            <div id="home-column" class="col-md-6 row justify-content-center align-items-center">
+                <div id="home-box" class="col-md-12">
+                    <br>
+                    <div class="form-group">
+                        <img src="{{ url_for('static', filename = 'images/Banner_Painel_Dengue.png')}}"
+                            alt="about image" class="img-responsive" width="1200" height="150">
+                    </div>
+
+                </div>
+            </div>
 
         </div>
-        <br>
         <div id="divPrincialResultadosJcConcursos" class="divPrincialResultadosJcConcursos">
             <iframe
-                src="https://app.powerbi.com/view?r=eyJrIjoiYjM0YjBlNWItNGRmZC00MjgwLWJlYjAtNDJjMjMxMzNkYzc4IiwidCI6ImJjOTljZTFhLWYwOGEtNDY4Yy1hOGJlLWI0NmQzZDUyMzRhNiJ9"
-                class="col-12 iframe-dashboard" frameborder="0" allowfullscreen="" title="Painel PowerBi" width="1200"
-                height="1200"></iframe>
-
+                src="https://app.powerbi.com/view?r=eyJrIjoiMjNmZTFlZGEtODc3Yy00NTc2LWJlN2ItNTM3Njg1MzE3NWU4IiwidCI6ImIwNGJlZGNhLTY3NjctNDEzOC05MjU2LWRjYjgxMTlkOGQxZCJ9"
+                class="col-12 iframe-dashboard" frameborder="0" allowfullscreen="" title="Painel PowerBi Dengue"
+                width="1300" height="600"></iframe>
+        </div>
+        <div id="divFontePainelDengue" class="row justify-content-center align-items-center">
+            <p>Fonte: <a href="https://www.santanadeparnaiba.sp.gov.br/">https://www.santanadeparnaiba.sp.gov.br/</a>
+            </p>
         </div>
     </div>
 </section>
